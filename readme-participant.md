@@ -4,19 +4,19 @@
 The following commands should run without errors:
 * `git clone https://github.com/rosatolen/xss-presentation.git`
 * `cd xss-presentation`
-* `./gradlew xss-presentation:test`
-* `./gradlew xss-presentation:run`
+* `./gradlew xss-demo-app:test`
+* `./gradlew xss-demo-app:run`
 
 ## Run tests
 
-* `./gradlew xss-presentation:test`
-* `./gradlew xss-presentation:intTest`
-* `./gradlew xss-presentation:uaTest`
-* `./gradlew xss-presentation:appSecTest # should fail at first`
+* `./gradlew xss-xss-demo-app:test`
+* `./gradlew xss-xss-demo-app:intTest`
+* `./gradlew xss-xss-demo-app:uaTest`
+* `./gradlew xss-xss-demo-app:appSecTest # should fail at first`
 
 ## Run the app
 
-* `./gradlew xss-presentation:run`
+* `./gradlew xss-demo-app:run`
 * Browse to `http://localhost:8080`
 * Admin username/password is `admin/password`
 
