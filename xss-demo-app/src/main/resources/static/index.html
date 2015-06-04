@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Guest Book</title>
+        <script src="js/jquery-2.1.3.js"></script>
+        <script src="js/guestbook.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="application.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div id="error-message" class="alert alert-danger" role="alert"></div>
+            <nav class="navbar navbar-default">
+                <img src="http://www.gap.com/Asset_Archive/GPWeb/content/0009/803/803/assets/logo_152.gif">
+                <form class="navbar-form navbar-right" id="login-form">
+                    <input type="text" class="form-control" id="username-text"  placeholder="username"/>
+                    <input type="password" class="form-control" id="password-text" placeholder="password" />
+                    <input type="submit" class="form-control" id="login-button" value="Submit" />
+                </form>
+            </nav>
+            <header>
+                <h2>Customer reviews for Blue Polo Shirt</h2>
+            </header>
+            <div><img id="shirt-pic" src="http://www.sunspel.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/1/2/1202_266.jpg"></div>
+            <nav class="navbar navbar-default">
+                <form class="navbar-form navbar-left" id="filter-form">
+                    <input type="text" class="form-control navbar-left" id="filter-text" placeholder="enter filter" />
+                </form>
+                <form id="delete-all-form" class="navbar-form navbar-left">
+                    <input type="button" class="form-control" id="delete-all-button" value="Delete All" />
+                </form>
+            </nav>
+            <section>
+                <form action="#" method="POST" id="entry-form">
+                    <input id="entry-form-text" type="text" name="entryText" placeholder="Enter Review Here"/>
+                    <input type="submit" name="submit" id="entry-form-submit" value="Submit"/>
+                </form>
+            </section>
+            <section id="entries">
+            </section>
+        </div>
+    </body>
+</html>

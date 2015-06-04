@@ -1,0 +1,32 @@
+#delete-all-form {
+    display: none;
+}
+
+label {
+    margin: 10px;
+}
+
+#entry-form-text {
+    width: 300px;
+}
+
+#filter-text {
+    width: 300px;
+}
+
+#error-message {
+    display:none;
+}
+
+.navbar-default {
+    background-color: #020d41;
+    border-color: #e7e7e7;
+}
+
+.navbar-form {
+    padding-right: 25px;
+}
+
+#shirt-pic {
+    width: 300px;
+}
