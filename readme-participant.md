@@ -8,11 +8,10 @@ The following commands should run without errors:
 * `./gradlew xss-demo-app:run`
 
 ## Run tests
-
-* `./gradlew xss-xss-demo-app:test`
-* `./gradlew xss-xss-demo-app:intTest`
-* `./gradlew xss-xss-demo-app:uaTest`
-* `./gradlew xss-xss-demo-app:appSecTest # should fail at first`
+* `./gradlew xss-demo-app:test`
+* `./gradlew xss-demo-app:intTest`
+* `./gradlew xss-demo-app:uaTest`
+* `./gradlew xss-demo-app:appSecTest # should fail at first`
 
 ## Run the app
 
