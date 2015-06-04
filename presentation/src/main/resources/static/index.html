@@ -308,7 +308,7 @@
                     </td>
                     <td>
                         <code>
-                            &lt;script&gt;alert(“gotcha”);&lt;/script&gt;
+                            &#38;lt;script&#38;gt;alert(“gotcha”);<br>&#38;lt;/script&#38;gt;
                         </code>
                     </td>
                 </tr>
@@ -377,14 +377,6 @@
         <section>
             <h2>HTML Output Encoding</h2>
             <pre>
-                <code>
-                    $attackerInput="&lt;img src='http://evil.org/deface.gif'&gt;"
-
-                    &lt;p&gt;$attackerInput&lt;/p&gt;
-
-                    $attackerInput="&lt;img src='http://evil.org/deface.gif'&gt;"
-                </code>
-
                 Un-encoded
                 <code>
                     &lt;p&gt;&lt;img src='http://evil.org/deface.gif'&gt;&lt;/p&gt;
@@ -400,9 +392,9 @@
             <h2>JavaScript Output Encoding</h2>
             <pre>
                 <code>
-                    $attackerInput="\"); alert('gotcha');//"
+                    attackerInput="\"); alert('gotcha');//"
                     &lt;script&gt;
-                    doSomething("$attackerInput");
+                    doSomething("attackerInput");
                     &lt;/script&gt;
                 </code>
                     Unescaped
