@@ -7,7 +7,7 @@ A presentation and sample app on XSS defense and mitigation.
 ## [Getting started as a facilitator](readme-facilitator.md)
 
 ## Requirements ##
-- Java 7
+- Java 8
 - Chrome
 - Chrome Driver
 
